@@ -1,20 +1,10 @@
 import React from 'react';
-import { StyleSheet, AsyncStorage, Text, TextInput, View, Button, SafeAreaView, StatusBar } from 'react-native';
-import { Constants } from 'expo';
+import { AsyncStorage, Text, TextInput, View, Button} from 'react-native';
 import styles from '../../styles/styles'
-// import { StackNavigator } from 'react-navigation';
+import * as AppConst from '../../../utils/AppConstants';
 
 export default class LoginForm extends React.Component {
-    static navigationOptions = {
-        title: 'EasySplit',
-        headerStyle: {
-            backgroundColor: '#f4511e',
-        },
-        headerTintColor: '#fff',
-        headerTitleStyle: {
-            fontWeight: 'bold',
-        },
-    };
+    static navigationOptions = AppConst.NAVIGATION_OPTIONS;
     constructor(props){
         super(props);
         this.state = {  
@@ -43,7 +33,7 @@ export default class LoginForm extends React.Component {
 
     render(){
         return (
-            <View style={{ flex: 1, backgroundColor: '#6a51ae' }}>
+            <View style={{ flex: 1 }}>
                 <View style={styles.inputGroup}>
                     <TextInput
                         style={styles.formControl}

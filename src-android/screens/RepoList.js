@@ -1,10 +1,8 @@
 import React from 'react';
-import { AsyncStorage, View, Text, SafeAreaView, Button, ScrollView, FlatList, TouchableOpacity} from 'react-native';
-import { NavigationActions, StackNavigator } from 'react-navigation';
+import { Text, SafeAreaView, ScrollView, FlatList, TouchableOpacity} from 'react-native';
 import styles from '../styles/styles';
 import { connect } from 'react-redux';
 import { listRepos } from '../../redux/actions/action';
-import ActionButton from 'react-native-action-button';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 class RepoList extends React.Component {

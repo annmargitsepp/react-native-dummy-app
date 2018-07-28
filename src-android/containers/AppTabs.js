@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, SafeAreaView, Button, StatusBar } from 'react-native';
+import { View } from 'react-native';
 import { TabNavigator } from 'react-navigation';
 import RepoList from '../screens/RepoList';
 import Contacts from '../screens/ContactScreen';

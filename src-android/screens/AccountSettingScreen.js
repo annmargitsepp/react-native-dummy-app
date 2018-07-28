@@ -1,6 +1,5 @@
 import React from 'react';
-import { AsyncStorage, StyleSheet, View, Text, SafeAreaView, StatusBar, Button } from 'react-native';
-import { NavigationActions } from 'react-navigation';
+import { View, Text, SafeAreaView, StatusBar, Button } from 'react-native';
 import styles from '../styles/styles'
 import * as AppConst from '../../utils/AppConstants';
 import Ionicons from 'react-native-vector-icons/Ionicons'

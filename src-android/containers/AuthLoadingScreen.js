@@ -3,8 +3,6 @@ import {
     ActivityIndicator,
     AsyncStorage,
     StatusBar,
-    StyleSheet,
-    Text,
     View,
 } from 'react-native';
 

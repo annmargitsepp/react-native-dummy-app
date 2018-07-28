@@ -1,5 +1,5 @@
 import React from 'react';
-import { AsyncStorage, Text, View, SafeAreaView, Button, Image, DrawerLayoutAndroid } from 'react-native';
+import { AsyncStorage } from 'react-native';
 import { DrawerNavigator, StackNavigator } from 'react-navigation';
 import AppTabs from './AppTabs';
 import DrawerContent from "../components/DrawerContent"

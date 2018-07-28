@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text, SafeAreaView, StatusBar, TouchableOpacity, SectionList } from 'react-native';
+import { Text, SafeAreaView, TouchableOpacity, SectionList } from 'react-native';
 import styles from '../styles/styles';
 import Ionicons from 'react-native-vector-icons/Ionicons'
 export default class ContactScreen extends React.Component {

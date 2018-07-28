@@ -1,5 +1,5 @@
 export const NAVIGATION_OPTIONS = {
-    title: 'Demo App',
+    title: 'Dummy App',
         headerStyle: {
         backgroundColor: '#f4511e',
         },
